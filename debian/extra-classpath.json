@@ -1,0 +1,4 @@
+[{"jar": "/usr/share/java/checkstyle.jar",
+  "package": "checkstyle"},
+ {"jar": "/usr/share/java/ant-contrib.jar",
+  "package": "ant-contrib"}]
