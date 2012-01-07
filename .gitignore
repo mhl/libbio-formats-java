@@ -1,3 +1,7 @@
+/debian/libbio-formats-java.debhelper.log
+/debian/libbio-formats-java.substvars
+/debian/files
+/debian/libbio-formats-java
 .classpath
 .project
 .settings

@@ -1,0 +1,34 @@
+libbio-formats-java for Debian
+------------------------------
+
+This packaging of bio-formats for Debian builds the following jar targets:
+
+    jar-autogen            generate JAR file for LOCI autogen
+    jar-common             generate JAR file for LOCI common library
+    jar-formats            generate JAR file for Bio-Formats
+    jar-jai                generate JAR file for JAI Image I/O Tools library
+    jar-loci-plugins       generate JAR file for LOCI Plugins for ImageJ
+    jar-lwf-stubs          generate JAR file for LWF stubs
+    jar-mdbtools           generate JAR file for MDB Tools Java library
+    jar-metakit            generate JAR file for Metakit Java library
+    jar-ome-xml            generate JAR file for OME-XML Java library
+    jar-poi-loci           generate JAR file for Apache POI library
+    jar-scifio             generate JAR file for SciFIO
+
+Curently, because of problematic dependencies, the following targets
+are not built:
+
+    jar-ome-editor         generate JAR file for OME Metadata Editor
+    jar-ome-io             generate JAR file for OME I/O
+    jar-ome-notes          generate JAR file for OME Notes
+    jar-ome-plugins        generate JAR file for OME Plugins for ImageJ
+    jar-tests              generate JAR file for LOCI testing framework
+
+bio-formats contains its own fork of the JAI Image I/O library, which
+even in the upstream version only provides one of the required
+dependencies (clibwrapper_jiio.jar) in binary form.  As a result, this
+package installs that binary jar to
+/usr/share/java/clibwrapper_jiio.jar, which makes the package non-free
+until this is somehow resolved.
+
+ -- Mark Longair <mhl@pobox.com>  Fri, 06 Jan 2012 18:51:19 +0100

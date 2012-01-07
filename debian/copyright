@@ -1,0 +1,45 @@
+This work was packaged for Debian by:
+
+    Mark Longair <mhl@pobox.com> on Fri, 06 Jan 2012 18:51:19 +0100
+
+It was downloaded from:
+
+    http://loci.wisc.edu/bio-formats/
+
+Upstream Author(s):
+
+    Bio-Formats is OME software developed by UW-Madison LOCI and
+    Glencoe Software.
+
+    The library is written by Melissa Linkert, Curtis Rueden, Chris
+    Allan and Brian Loranger with past contributions from Eric
+    Kjellman. Other contributors include Eric Albert, Jonathan Armond,
+    Simon Blanchoud, Ghislain Bonamy, Michel Boudinot, Jean-Marie
+    Burel, Thomas Caswell, Tony Collins, Dmitry Fedorov, Zack
+    Galbreath, Shawn Garbett, Bram Gerritsen, Aivar Grislis, John
+    Hansen, Volker Hartmann, Mark Hiner, Sebastien Huart, Greg
+    Jefferis, Lee Kamentsky, Mikhail Kovtun, Gaëtan Lehmann, Chris
+    Lesiak, Cris Luengo, Josh Moore, Rubén Muñoz, Martin Offterdinger,
+    Jim Paris, Nick Perry, Ville Rantanen, Wayne Rasband, Johannes
+    Schindelin and Brett Shoelson.
+
+License:
+
+    Bio-Formats is open source software licensed under the GNU General
+    Public License (GPL).
+
+    As a "copyleft" license, the GPL requires that any software
+    package linking to Bio-Formats, either directly or indirectly,
+    cannot be distributed unless its source code is also made
+    available under the terms of the GPL. In addition, it forbids
+    distribution if your software package depends on any non-free
+    software other than common operating system components.
+
+On Debian systems, the complete text of the GNU General
+Public License version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+The Debian packaging is:
+
+    Copyright (C) 2012 Mark Longair <mhl@pobox.com>
+
+and is licensed under the GPL version 3, see above.

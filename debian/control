@@ -1,0 +1,22 @@
+Source: libbio-formats-java
+Section: java
+Priority: extra
+Maintainer: Mark Longair <mhl@pobox.com>
+Build-Depends: debhelper (>= 7), ant, checkstyle, ant-contrib, testng,
+ imagej (>= 1.45), checkstyle, libjgoodies-forms-java, liblog4j1.2-java,
+ velocity, libslf4j-java, libcommons-logging-java,
+ libnetcdf-core-java
+Standards-Version: 3.8.3
+Homepage: http://loci.wisc.edu/software/bio-formats
+
+Package: libbio-formats-java
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, testng,
+ imagej (>= 1.45), checkstyle, libjgoodies-forms-java, liblog4j1.2-java,
+ velocity, libslf4j-java, libcommons-logging-java,
+ libnetcdf-core-java
+Description: A Java library for processing life sciences image file formats
+ Bio-Formats is a standalone Java library for reading and writing life
+ sciences image file formats. It is capable of parsing both pixels and
+ metadata for a large number of formats, as well as writing to several
+ formats.
